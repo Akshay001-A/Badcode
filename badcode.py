@@ -5,7 +5,8 @@ x = 10
 y = 20
 z = 0
 
-password = "admin123"
+
+password = os.getenv("APP_PASSWORD")
 
 def calc(a,b):
     if a>b:
